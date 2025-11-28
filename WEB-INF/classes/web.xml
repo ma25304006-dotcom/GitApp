@@ -1,0 +1,13 @@
+<web-app>    
+    <servlet>
+        <servlet-name>name</servlet-name>
+        <jsp-file>/gitinpt.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>name</servlet-name>
+        <url-pattern>/gitinpt</url-pattern>
+    </servlet-mapping>
+    
+          
+</web-app>
