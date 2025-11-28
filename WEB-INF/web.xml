@@ -8,6 +8,19 @@
         <servlet-name>name</servlet-name>
         <url-pattern>/gitinpt</url-pattern>
     </servlet-mapping>
+
+
+    <!-- サーブレットの登録-->
+    <servlet>
+        <servlet-name>gitinpt</servlet-name>
+        <servlet-class>GitInputServlet</servlet-class>
+    </servlet>
+
+    <!-- URLとサーブレットの対応付け (counter)-->
+    <servlet-mapping>
+        <servlet-name>gitinpt</servlet-name>
+        <url-pattern>/GitInpt</url-pattern>
+    </servlet-mapping>
     
           
 </web-app>
